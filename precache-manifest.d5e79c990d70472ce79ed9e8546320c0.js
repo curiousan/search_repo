@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/git_repo/static/css/1.58f9b0a1.chunk.css"
   },
   {
-    "revision": "bb23261be6938fa13807c0085477cddf",
+    "revision": "d19b32fa0b4532b55d120fb3310e8847",
     "url": "/git_repo/index.html"
   }
 ];
