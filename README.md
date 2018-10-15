@@ -19,7 +19,7 @@ npm install
 ```
 
 ### Run
-Following command will start the server and app will be running in localhost on port 3000 if not specified
+Following command will start the server and app will be running in localhost on port 3000.
 
 ```
 npm start
