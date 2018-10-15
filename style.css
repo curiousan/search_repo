@@ -1,0 +1,112 @@
+.header {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.list {
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px !important;
+    color:#000;
+}
+.pagination>li>a{
+    font-size: 16px;
+}
+.form-control{
+    height: 40px !important;
+    width: 500px !important;
+    font-size: 18px !important;
+    margin-right: 10px;
+}
+.my-btn-lg{
+    height: 40px !important;
+    font-size: 18px !important;
+}
+.list-group {
+    padding: 10px;
+}
+
+.modal {
+    background-color: #fff !important;
+    border-radius: 5px !important;
+    width: 50% !important;
+    margin: 0 auto !important;
+    padding: 30px !important;
+    display: block !important;
+    position: fixed !important;
+    top: 20% !important;
+    right: 0 !important;
+    bottom: auto !important;
+    overflow: hidden !important;
+    outline: 0 !important;
+}
+
+.backdrop {
+    display: block !important;
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    z-index: 9999 !important;
+    outline: 0 !important;
+    background-color: rgba(0, 0, 0, 0.75) !important;
+    padding: 50px !important;
+    justify-content: center !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+}
+
+.modal-body {
+    font-size: 14px;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin-top: 10px;
+}
+
+.footer > button {
+    position: absolute;
+    right: 0;
+    bottom: 0 !important;
+}
+
+.modal-close-icon{
+    float:right;
+    font-weight: normal !important;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .modal {
+        max-width: 90% !important;
+        min-width: 80% !important;
+        padding: 10px !important;
+        display: block !important;
+    }
+
+    .backdrop {
+        display: block !important;
+        padding: 10px !important;
+    }
+
+    .form-control{
+        height: 40px !important;
+        width: 100% !important;
+        font-size: 16px !important;
+        margin-right: 0px;
+    }
+    .my-btn-lg{
+        margin-top: 20px;
+        width: 100% !important;
+        display: block !important;
+        height: 30px !important;
+        font-size: 12px !important;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+}
